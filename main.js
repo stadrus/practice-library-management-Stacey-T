@@ -17,7 +17,7 @@ class LibraryItem {
     constructor (title, id, isAvailable){
     this.title = title;
     this.id = id;
-    this.isAvailable = isAvailable;
+    this.isAvailable = isAvailable;//should have been declaired as true because it is a boolean
     }
     checkout(){
         
